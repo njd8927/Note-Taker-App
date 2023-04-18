@@ -1,11 +1,12 @@
 const fs = require('fs');
 const router = require('express').Router();
 const { v4: uuidv4 } = require('uuid');
-const {notes} = require('../db/db.json');
+let notes  = require('../db/db.json');
 
 
 router.get('/notes', (req, res) => {
     let data = notes;
+    console.log(data);
     res.json(data);
 });
 
@@ -13,14 +14,18 @@ router.get('/notes', (req, res) => {
 
 router.post('/notes', (req, res) => {
     req.body.id = uuidv4();
-    let newNote = renderActiveNote(req.body, notes);
-    res.json(newNote);
+    notes.push(req.body)
+    res.json(notes);
 });
 
 
 
 router.delete('/notes/:id', (req, res) => {
    const noteParam = req.params.id;
-   renderNoteList(params, notes);
+   const newNotes = notes.filter(note => req.params.id !== note.id)
+   notes = newNotes
    res.redirect('');
 });
+
+
+module.exports = router;
