@@ -16,6 +16,6 @@ app.use(express.static ('public'));
 
 
 
-
+// listener to start the server and log message saying server is listening on port 3001
 app.listen(PORT, () => 
     console.log('Server listening on Port %s', PORT));
