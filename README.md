@@ -18,7 +18,7 @@ https://opensource.org/licenses/MIT
 ### 5. [Questions](#questions)
 
 ## Description
-This project is intended to provide the user with a database to keep track of his/her company's employees. The user is able to view all employees, departments and roles. The user is also able to add a department, role or employee and update a current employee's role.
+This project is intended to provide the user with an application allowing them to create and store notes. The user is able to create a note, save it for future use and when no longer needed, can delete the note.
 
 ## Installation
 For installation instructions, please see the project github repository: https://github.com/njd8927/Note-Taker-App
