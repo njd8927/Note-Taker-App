@@ -24,7 +24,7 @@ This project is intended to provide the user with an application allowing them t
 For installation instructions, please see the project github repository: https://github.com/njd8927/Note-Taker-App
 
 ## Usage
-To initialize application, visit the webpage using the following link:
+To initialize application, visit the webpage using the following link: https://radiant-bastion-98114.herokuapp.com/
 
 ## Contributions
 This project was developed with assistance from JD Tadlock, Armando Osario, https://www.stackoverflow.com and MDN Web Docs.
@@ -36,4 +36,4 @@ GitHub: https://www.github.com/njd8927
 
 Email: nicholasz8687@gmail.com
 
-Link to Deployed Application:
+Link to Deployed Application on Heroku: https://radiant-bastion-98114.herokuapp.com/
